@@ -45,3 +45,27 @@ My academic interests are mostly ***STEM*** related. I love _math_ and want to b
     - I use Reddit for general question like what are some interesting websites. It's also useful for troubleshooting issues that others have gone through.
 3. [MonkeyType](https://monkeytype.com)
     - This is a greate website to improve your typing skills. When I have some free time during class, I always get on MonkeyType for 5 mins and practice my typing.
+
+## My Mermaid Charts
+
+### How I get to School and Back
+
+``` mermaid
+flowchart TD;
+    Home-->Car;
+    Car-->School;
+    School-->Bus;
+    Bus-->Car2;
+    Car2-->Home; 
+```
+### Timeline of NBA Champions 2020-2024
+``` mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base' } }%%
+timeline
+    title NBA CHAMPS 2020-2024
+    2020: Los Angeles Lakers defeated Miami Heat (4-2)
+    2021: Milwaukee Bucks defeated Phoenix Suns (4-2)
+    2022: Golden State Warriors defeated Boston Celtics (4-2)
+    2023: Denver Nuggets defeated Miami Heat (4-1)
+    2024: Boston Celtics deafeated Dallas Mavericks (4-1)
+```
