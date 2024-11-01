@@ -1,0 +1,100 @@
+/* Color Palette:
+Text color: #F8F7F6;
+Tab color: #678DBE;
+Background: #958C8C;
+Dark Accent: #aaacb3;
+Dark Shades: #475671;
+*/
+
+body {
+    background-color: #958C8C;
+    color: #F8F7F6;
+    font-size: larger;
+    font-family: 'Gill Sans';
+}
+
+.profile {}
+
+.name {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 60px;
+    font-family: 'Gill Sans';
+    color: #A3C5D1;
+}
+
+/* Use display: inline-block; to set your profile picture on the same line as
+your name.
+2. Style it with border-radius: __%;
+3. Resize with width: __px; */
+
+.profile-pic {
+    border-radius: 90%;
+    width: 180px;
+}
+
+.navbar {
+    background-color: #475671;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    width: 200px;
+    font-size: 30px;
+    border: 3px solid black;
+}
+
+.nav-current {
+    background-color: yellow;
+}
+
+.nav-link-current {}
+
+.nav-link-non-current {
+    color: #A3C5D1;
+}
+
+/* Create three equal columns that float next to each other */
+.column-header {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 500px;
+}
+
+.column-middle {
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.main-content > :nth-child(odd) {
+    background-color: #75a7c0;
+}
+
+.main-content > :nth-child(even) {
+    background-color: #1180b8;
+}
+
+.footer {
+   padding-top: 10px;
+}
