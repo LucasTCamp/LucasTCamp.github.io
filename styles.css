@@ -11,6 +11,8 @@ body {
     color: #F8F7F6;
     font-size: larger;
     font-family: 'Gill Sans';
+    margin: 0;
+    padding: 0;
 }
 
 .profile {}
