@@ -8,10 +8,12 @@ Dark Shades: #475671;
 
 body {
     background-color: #958C8C;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
     color: #F8F7F6;
     font-size: larger;
     font-family: 'Gill Sans';
-    height: 100%;
 }
 
 .profile {}
