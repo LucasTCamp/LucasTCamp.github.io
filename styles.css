@@ -11,7 +11,7 @@ body {
     color: #F8F7F6;
     font-size: larger;
     font-family: 'Gill Sans';
-    background-size: cover;
+    height: 100%;
 }
 
 .profile {}
