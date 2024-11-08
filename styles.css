@@ -1,3 +1,96 @@
+.navbar {
+    background-color: #995DB5;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    width: 200px;
+    font-size: 30px;
+    border: 3px solid black;
+}
+
+.nav-current {
+}
+
+.nav-link-non-current {
+    color: #A3C5D1;
+}
+
+.container {
+    display: flex;
+    background: rgba(156, 39, 176, 0.2);
+    border: 1px solid rgba(0, 0, 0, .5);
+    min-height: 300px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column {
+    padding: 5px;
+    margin: 5px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.box {
+    width: 500px;
+    flex-grow: 1
+}
+
+.box-middle {
+    flex-grow: 2;
+    background-color: rgba(36, 12, 42, 0.256);
+    min-height: 300px;    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-item {  
+    margin-top: 10px;
+}
+
+.form-item > label {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-item > input {
+    display: inline-block;
+    width: 200px;
+}
+
+.form-item > textarea {
+    display: inline-block;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #995DB5;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+img:hover {
+    border: 2px solid black;
+}
+
+input:focus {
+    background-color: #ECD5F0;
+}
+
+textarea:focus {
+    background-color: #ECD5F0;
+}
+
 /* Color Palette:
 Text color: #F8F7F6;
 Tab color: #678DBE;
@@ -6,7 +99,7 @@ Dark Accent: #aaacb3;
 Dark Shades: #475671;
 */
 
-body {
+/* body {
     background-color: #958C8C;
     height: 100vh;
     width: 100vw;
@@ -25,11 +118,6 @@ body {
     font-family: 'Gill Sans';
     color: #A3C5D1;
 }
-
-/* Use display: inline-block; to set your profile picture on the same line as
-your name.
-2. Style it with border-radius: __%;
-3. Resize with width: __px; */
 
 .profile-pic {
     border-radius: 90%;
@@ -59,7 +147,7 @@ your name.
     color: #A3C5D1;
 }
 
-/* Create three equal columns that float next to each other */
+// Create three equal columns that float next to each other
 .column-header {
     text-align: center;
 }
@@ -76,14 +164,14 @@ your name.
     height: 500px;
 }
 
-/* Clear floats after the columns */
+// Clear floats after the columns 
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+// Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less)
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
@@ -100,4 +188,5 @@ your name.
 
 .footer {
    padding-top: 10px;
-}
+} 
+*/
