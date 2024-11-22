@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="operandOne">X:</label>
+        <input name="operandOne" id="operandOne" value="10" />
+        <label for="total">Result:</label>
+        <div name="total" id="total"></div>
+    </form>
+    <py-script>
+        input_box = Element("operandOne")
+        operandOne = float(input_box.value)
+        result = Element("total")
+        result.write("Hello!  The input says: " + str(operandOne))
+    </py-script>
+    <div class="navbar">
+        <div class="nav-item">
+            <a href="./index.html">Home</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link-non-current" href="./Interests.html">My Interest</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link-non-current" href="./contact.html">Contact Me</a>
+        </div>
+        <div class="nav-item nav-current">
+            <a href="./hello.html">PyScript</a>
+        </div>
+    </div>
+</body>
+</html>
